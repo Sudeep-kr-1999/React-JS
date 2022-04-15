@@ -1,0 +1,10 @@
+Summary useState hooks:----------------------------------
+
+----> The useState hooks lets you add state to the functional components
+----> In classes, the state is always an object
+----> With the useState hook, the state doesn't have to be an object
+----> The useState hook return an array with 2 elements
+----> The first element is the current value of the state and the second element is the state setter function
+----> If New state value depends on the previous state value We can pass a function to the setter function
+----> When dealing with object and arrays , always make sure to spread your state variable and then call the setter function
+

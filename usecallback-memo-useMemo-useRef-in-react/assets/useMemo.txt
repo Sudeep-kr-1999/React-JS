@@ -1,0 +1,11 @@
+useMemo hook:---------------------
+
+----> useMemo hook that will only recompute the cached value when one of the dependencies has changed.
+----> this optimization help to avoid expensive calculations on every render
+----> it is very similar to how useCallback works
+----> first argument is the arrow function which will work and return a value which is the Cached value returned by the useMemo hook and the second argument is the dependency list 
+
+
+
+Differnce between useMemo and useCallback:------------
+---> useMemo caches the provided function instance itself but useMemo invokes the provided function and caches its results. 

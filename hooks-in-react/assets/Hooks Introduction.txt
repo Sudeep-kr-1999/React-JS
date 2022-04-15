@@ -1,0 +1,46 @@
+Introduction To Hooks in React:------------------
+
+----> Hooks are a new feature addition in React version 16.8 which allows you to use React features without having to write a class
+      ex: State of a component 
+----> Hooks donot work inside classes
+
+
+=============================================================================================================================================
+
+Why hooks:-------------------??
+
+----> Reason 1: Understand how "this" keyword works in javascript
+----> Remember to bind event Handlers in class component
+----> Classes donot minify very well and make hot reloading very unreliable
+
+----> There is no particular way to reuse stateful component logic between components
+----> The HOC and render props pattern do address this problem but for this we have to restructure our component which make code okward looking
+----> Makes the code harder to follow
+----> There is a need to share stateful logic in a better way
+
+----> Create components for complex scenarios such as data fetching and subscribing to events
+----> Related code is not organised in one place .
+       Ex: data fetching- in componentDidMount and componentDidUpdate
+           event Listeners :- In componentDidMount and componentWillUnmount
+
+----> Because of stateful logic :-- cannot break components into smaller ones
+
+==============================================================================================================================================
+
+Noteworthy points:------------
+
+-----> to be able to use Hooks React version must be 16.8 or higher
+-----> Completely opt in : if we donot want to learn it its ok its our choice 
+-----> Hooks donot contain any breaking changes and the release is 100% backward -compatible
+-----> Classes won't be removed from the React
+-----> Can't use Hooks inside of a class Component
+-----> Hooks donot replace your existing knowledge of React components
+-----> Instead, hooks provide a more direct API to React components you already know
+
+
+
+
+
+
+
+

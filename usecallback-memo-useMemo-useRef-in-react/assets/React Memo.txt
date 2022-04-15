@@ -1,0 +1,4 @@
+React.memo():-------------------------
+
+-----> React.memo is a higher order component that will prevent a component from re-render if its prop or state donot change.
+------> React.memo has nothing to do with the hooks

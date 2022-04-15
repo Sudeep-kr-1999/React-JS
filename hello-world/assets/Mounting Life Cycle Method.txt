@@ -1,0 +1,32 @@
+
+Mounting Life Cycle Methods :----------------
+
+1. constructor(props):--- 
+
+----> A special function that will get called whenever a new component is created
+----> Initializing state
+----> Binding the EventHandlers
+----> Donot cause side effects EX: HTTP requests
+----> super(props)
+----> Directly overwrite this.state
+
+2. static getDerivedStateFromProps(props,state)
+----> when the state of the component depends on the changes in the props over the time
+----> set the state
+----> since static function we should not use this keyword instead the updated object state
+----> donot cause side effects,ex HTTP requests
+
+3. render
+
+----> only require method in the class component
+----> read props and state and return JSX
+----> Pure function
+----> donot change the state or interact with DOM or make ajax calls
+---->children component life cycle method is also executed
+
+4.componentDidMount
+----> this method will be called only once in whole life cycle of an event component and it is invoked immediately after a component and all its children components have been rendered to the DOM
+----> Cause side effects. Ex:- interact with the DOM or perform any ajax calls to load data
+	
+
+note:----------the above methods are in the order of execution it will be executed top to down order of execution

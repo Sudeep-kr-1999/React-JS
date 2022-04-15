@@ -1,0 +1,28 @@
+Why higher order components (HOC):============
+
+----> To share the common functionality between components
+----> A pattern where a function take a component as an argument and return a new component.
+----> in simple code it looks like :-- const NewComponent= higherOrderComponent(originalComponent)
+----> Typically HOC add Additional data and functionality to the Original Component
+----> So new component can also be refered as enchanced component:-- const EnhancedComponent=higherOrderComponent(originalComponent)
+
+
+EXAMPLE : ----------------
+
+const IronMan=withSuit(TonyStark);
+
+here:------
+---> TonyStark is the original component
+---> withSuit is the function which enchance the properties of the Original Components
+---> With enchanced properties he become the IronMan
+
+
+=======================================================================================================================================
+Naming Convenction for HOC as per the observed data all over the internet :--------
+
+
+// Naming Convention for the HOC:------------
+
+// 1. The function and the file name is usually the same it indidcates the functionality added to the component in camelCase 
+// 2. Original Component is Usually Rerfered to as WrappedComponent
+// 3. new component is same as the function name but in the PascalCase

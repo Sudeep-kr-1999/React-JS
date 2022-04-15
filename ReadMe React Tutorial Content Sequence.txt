@@ -1,0 +1,86 @@
+React Tutorial Sequence :---
+
+---> Introduction
+---> Hello World
+---> Folder Structure
+---> Components
+---> Functional Components
+---> Class Components
+---> Hooks -update
+---> JSX
+---> props
+---> state
+---> setState
+---> Destructuring props and state
+---> Event Handling
+---> Binding Event Handlers
+---> Methods and props
+---> Conditional Rendering
+---> List Rendering
+---> List And Keys
+---> Index as key anti-pattern
+---> Styling and CSS Basics
+---> Form Handling
+---> LifeCycleMethods
+---> Mounting Lifecycle
+---> Update Lifecycle
+---> Fragments
+---> Pure Components
+---> memo
+---> Refs
+---> Refs with class Component
+---> Forwarding Refs
+---> Portals
+---> Error Boundary
+---> Higher Order Components
+---> HOC-2
+---> HOC -3
+---> Render Props
+---> Render Props 2
+---> Context
+---> Context 2
+---> Context 3
+---> HTTP
+---> HTTP GET
+---> HTTP POST
+
+
+-----------------------React Hooks ---------------------------
+
+---> Introduction
+---> useState Hook
+---> useState with Previous state
+---> useState with object
+---> useState with array
+---> useEffect Hook
+---> useEffect after render
+---> Conditionally Run effect
+---> Run Effect only once
+---> useEffect with cleanup
+---> useEffect with incorrect deps
+---> useEffect Fetching data
+---> useEffect Fetching data 2
+---> useEffect Fetching data 3
+---> useContext 1
+---> useContext 2
+---> useContext 3
+---> useReducer Hook
+---> useReducer Hook(simple)
+---> useReducer Hook(Complex)
+---> Multiple useReducers
+---> useReducer with useContext
+---> Fetch data with useReducer 1
+---> Fetch data with useReducer 2
+---> useState v/s useReducer
+---> useCallback Hook
+---> useMemo Hook
+---> useRef Hook 1
+---> useRef Hook 2
+---> Custom Hooks
+---> useDocumentTitle Custom Hook
+---> useCounter Custom Hook
+---> useInput Custom Hook
+
+
+-------------------React Routers------------------
+----> Routers in React Js

@@ -1,0 +1,39 @@
+React and HTTP:-----------------
+
+                                   fetch
+Web applications<--------------------------------------------->Server
+                -------------------------------------------->
+                  Send
+
+
+Note:------ React itself donot have any particular way to fetch or send data to the server.
+-----------> Here for this purpose we are going to use HTTP Library (axios) or fetch API
+
+=========================================================================================================
+Installing axios:----------
+
+PS D:\COMPUTER LANGUAGES FOLDER\REACT AND REACT NATIVE\React Tutorial\react-http> npm install axios
+
+added 1 package, and audited 1974 packages in 11s
+
+138 packages are looking for funding
+  run `npm fund` for details        
+
+82 moderate severity vulnerabilities
+
+To address issues that do not require attention, run:
+  npm audit fix
+
+To address all issues (including breaking changes), run:
+  npm audit fix --force
+
+Run `npm audit` for details.
+
+=============================================================================================================
+
+---------> axios is a promise based library
+Note:---- axios request are made in the componentDidMount() Life cycle method since ye pure component ke lifecycle mein bs ek baar use hota h jb component mount ho jaata h
+
+
+
+ 

@@ -1,0 +1,19 @@
+Context in React js:---------
+
+----> Context provide a way to pass data through the component tree without having to pass the props down manually at every level.
+==========================================================================================================================================
+Steps to Implement Context:--------
+
+There are 3 steps to implement Context:---
+
+1. Create the Context
+
+---> // Note:---Every Context object created using the createContext() method comes with a provider and a consumer React Component 
+        
+        Note:---Every Context object created using the createContext() method comes with a provider and a consumer React Component 
+        //   THE Value in the React.createContext() method is the default value we assign to the Context , here the default value Is 'React Learner'
+        // Default value will only be used when a component doesnot have a matching Provider above it in a component tee 
+
+
+2. Provide a Context Value
+3. Consume the Context Value in the Necessary Component

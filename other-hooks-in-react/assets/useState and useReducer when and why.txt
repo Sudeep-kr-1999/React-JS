@@ -1,0 +1,14 @@
+useState v/s useReducer:-----------------------------------
+
+Scenario                                        useState                                     useReducer
+Types of state                                 Number,String,Boolean			    Object and Array
+
+Number of state transistions                   One or Two			              Too many
+
+Realated State Transistion?			No						Yes
+
+Business Logic					No business logic			Complex business Logic
+
+Local v/s Global State				Local						Global
+
+

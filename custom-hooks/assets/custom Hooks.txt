@@ -1,0 +1,13 @@
+custom hooks :--------------------------
+
+----> A custom hook is basically a javascript function whose name start with "use".
+----> A custom hook can also call other Hooks if required
+
+
+Why?????
+
+----> to share logic between two or more components
+-----> Share Logic:--- Alternative to HOC's and Render props
+
+
+How to create custom hooks  !!

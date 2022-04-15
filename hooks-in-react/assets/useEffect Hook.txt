@@ -1,0 +1,6 @@
+useEffect hooks :-----------------------------
+
+---> The Effect Hook let you perform side effects in functional 
+---> It is a close replacement for componentDidMount, componentDidUpdate and componentWillUnmount
+---> it runs after every render of the component very important
+----> useEffect is placed inside the components so we can easily access components state and props without having to write the additional code 

@@ -1,0 +1,14 @@
+useCallback hook:------------------------------------------------
+
+What????
+----> useCallback is a hook that will return a memoized version of the callback function that only changes if one of its dependencies has changed
+
+
+Why????
+---->it is useful when passing callbacks to optimize child components that rely on reference equality to prevent unnecessary renders
+
+
+How???
+In the editor ....!
+
+useCallback(arrow function to do the work, dependency list )!

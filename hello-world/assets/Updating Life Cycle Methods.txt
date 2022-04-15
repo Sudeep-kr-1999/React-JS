@@ -1,0 +1,38 @@
+Updating Life Cycle Methods:------------------
+
+1. static getDerivedStateFromProps(props,state)
+----> This is a static method which recieves props and state as its parameter and has to return either null or object which represent the updated state of the component.
+----> Method called every time a component is re-rendered
+----> this method used when state depend on props of the component
+----> set the state
+----> do not cause side effects ex:- HTTP requests
+----> one of the rarely used method in the updating phase
+
+2. shouldComponentUpdate(nextProps,nextState)
+----> this method recieve the updated props and state 
+----> dictates if the components should re-render or not
+----> by default all class components will be rendered whenever the props they recieve or the state changes
+----> this method can prevent the default behaviour by returning false.
+----> what we can do is compare the existing props and state values to the next state and props value and return true or false to let react know whether the component will update or not . 
+----> this method is basically for performance optimization
+----> donot cause side effects .Ex HTTP requests calling the setState method
+
+3 render
+----> Only required method
+----> Read props and state and return JSX
+----> Donot change the state or interact with DOM or make ajax calls.
+
+
+4 getSnapshotBeforeUpdate(prevProps,prevState)
+----> accept previous props and previous state as its parameter and is called right before the changes from the virtual DOM are reflected in the DOM
+----> Rarely used method 
+----> Capture some information from the DOM
+----> Method will either return null or return a value. Returned value will be passed as the third parameter to the next method which is componentDidUpdate(prevProps,prevState,snapshot)
+
+
+5. componentDidUpdate(prevProps,prevState,snapshots)
+----> Called after the Render is finished in the re-render cycles
+----> this means we can be sure that components with all its child components has been rendered after the update
+----> Gurantee to be called only once in each re-render cycle
+----> Cause side effect means we can make AJAX calls
+

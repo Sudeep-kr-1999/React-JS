@@ -1,0 +1,5 @@
+useReducer with useContext:-------------------------------
+
+-----> useReducer: local state management(so far)
+-----> share state between components:--- Global state management
+-----> useReducer+useContext

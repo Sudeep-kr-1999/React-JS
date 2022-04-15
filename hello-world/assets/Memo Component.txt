@@ -1,0 +1,4 @@
+Memo Component:
+
+-----> as the pure component is like for class component the same way memo component is for the functional component in React
+-----> // React.memo is a higher order component which take component add something to it and return the new component 

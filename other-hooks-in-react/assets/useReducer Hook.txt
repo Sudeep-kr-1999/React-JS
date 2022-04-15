@@ -1,0 +1,56 @@
+useReducer Hook :--------------------------------------
+
+----> useReducer is a hook that is used for state management
+----> It is an alternative to the useState
+
+What is the difference then???
+-----> useState is built using useReducer
+
+When to use useState and useReducer??????
+
+
+Hooks so Far:-----------------------------------------------------
+
+useState---> State
+useEffect---> side effects
+useContext----> context API
+useReducer------> reducers
+
+
+=========================================================================================================================================
+about reduce() function in the javascript
+
+const array1=[1,2,3,4]
+const reducer=(accumulator,currentValue)=> accumulator+currentValue;
+
+//1+2+3+4
+console.log(array1.reduce(reducer));
+//expected output:10
+
+
+// 5+1+2+3+4
+console.log(array1.reduce(reducer,5));
+//expected output : 15
+============================================================================================================================================
+
+reduce V/s useReducer:-------------------
+
+--> reduce:----
+
+----> array.reduce(reducer,initialValue): here reducer is a function 
+---->singleValue=reducer(accumulator,itemValue)
+----> reduce method return a single value
+
+
+
+
+
+--> useReducer:----
+----> useReducer(reducer,initialState) : here reducer is a functions
+----> newState= reducer(currentState,action): here action parameter dictate the transition from the current state to the new state
+----> useReducer returns a pair of values, [newState,dispatch]:---here dispatch is the method used to specify the action
+
+======================================================================================================================================================
+
+
+

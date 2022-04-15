@@ -1,0 +1,6 @@
+Unmounting Life Cycle Method:
+
+1. componentWillUnmount()
+---> this method is invoked immediately before a component is unmounted and destroyed.
+---> in this method we can perform some clean up task like cancelling any network request, removing events handlers, cancelling any subscriptions and also invalidating timers.
+---> donot call a setState() method because the component is never re-rendered after it get unmounted

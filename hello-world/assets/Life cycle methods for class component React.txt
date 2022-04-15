@@ -1,0 +1,22 @@
+Life cycle methods(Phase) for React (Class Component):
+
+1. Mounting:-- When a instance of a component is being created and inserted into the DOM
+
+2. Updating:--- When a component is being re-rendered as a result of changes to either its props or state
+
+3 Unmounting:--- When components is being removed from the DOM
+
+4.Error Handling:-- When there is an error during rendering, in a life cycle method, or in the constructor of any child component 
+
+
+===========================================================================================================================================================
+
+Methods under each and every phase mentioned above provided by the React:-------
+
+1.Mounting Phase:--- (constructor, static getDerivedStateFromProps,render and componentDidMount)
+
+2 Updating Phase :--- (static getDerivedStateFromProps, shouldComponentUpdate,render,getSnapshotBeforeUpdate and componentDidUpdate)
+
+3. Unmounting Phase:--- (componentWillUnmount)
+
+4. Error Handling:--- (static getDerivedStateFromError and componentDidCatch)

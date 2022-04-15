@@ -1,0 +1,5 @@
+Render props pattern is the another way other than HOC to share code between multiple elements in React .
+
+--> The term "render prop" refers to a technique for sharing code between React Components using a prop whose value is a function.
+
+--> 

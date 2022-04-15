@@ -1,0 +1,10 @@
+useRef hook :--------------------------
+
+----> it is used to give the reference to the any element and use it as props with inbuilt ref prop.
+
+-----> it can be used to create a generic container which can hold a mutable value similar to instance properties on a class component 
+
+
+----> this generic container does not cause re-render if data it stores changes
+----> it also remember the store data even after the other state variables re-render of this component.
+-----> use case is the interval timer in the react component
