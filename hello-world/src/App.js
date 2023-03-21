@@ -28,7 +28,8 @@
 // import Welcome from './components/Welcome';
 // import Hello from './components/Hello';
 // import Message from './components/Message';
-// import Counter from './components/Counter';
+import Counter from './components/Counter';
+import { UseImperativeHandlerParent } from './components/UseImperativeHandlerParent';
 // import FunctionClick from './components/FunctionClick';
 // import ClassClick from './components/ClassClick';
 // import EventBind from './components/EventBind';
@@ -40,6 +41,8 @@
 function App() {
   return (
     <div className="App">
+      {/* useImperativeHandlerHook */}
+      <UseImperativeHandlerParent/>
       {/* ===================================================================================================================================================================== */}
 
       {/* note:--- UserProvider mein jo bhi value hoga wo ya default context jo bhi hoga wo jis component ko diya jaayega to wo us component ke andar jitne bhi component contained hoge sbke paas chhla jaayega (important)  */}
@@ -107,19 +110,19 @@ function App() {
       {/* <EventBind/> */}
       {/* <ClassClick/> */}
       {/* <FunctionClick/> */}
-      {/* <Counter/> */}
+      <Counter/>
       {/* <Message/> */}
-      {/* <Greet name="Bruce" heroName="Batman">
+      {/* <Greet name="Bruce" heroName="Batman" firstName="Anjan">
         <p>This is children props of Bruce</p>
-        </Greet>
-      <Greet name="Clark" heroName="Superman">
+        </Greet> */}
+       {/* <Greet name="Clark" heroName="Superman">
         <button>Action</button>
-      </Greet>
-      <Greet name="Dianna" heroName="WonderWomen"/>
-       <Welcome name="Bruce" heroName="Batman"/>
+      </Greet> */}
+      {/* <Greet name="Dianna" heroName="WonderWomen"/> */}
+       {/* <Welcome name="Bruce" heroName="Batman"/>
        <Welcome name="Clark" heroName="Superman"/>
-       <Welcome name="Dianna" heroName="WonderWomen"/>
-      <Hello/>  */}
+       <Welcome name="Dianna" heroName="WonderWomen"/>   */}
+      {/* <Hello/> */}
     </div>
   );
 }

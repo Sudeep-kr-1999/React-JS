@@ -38,15 +38,15 @@ import React from 'react';
 
 // By using Destructuring Concept :its destructuring in the function body
 const Greet = (props) => {
-    const {name,heroName}=props;
+    const {name,heroName,firstName}=props;
 
     return (
 
         // Note:------ it will give the error since props are immutable and cannot be changed once defined
         // props.name="React"; 
     <div>
-    <h1>Hello {name} with heroname {heroName}</h1>
-    {/* {children} */}
+    <h1>Hello {name} with heroname {heroName} {firstName}</h1>
+    {/* {props.children} */}
     </div>
     )
 }

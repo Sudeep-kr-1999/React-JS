@@ -49,3 +49,7 @@ export default RefsDemo;
 
 // note:----- here we saw how to add ref to the normal html element and it is also possible to add the ref to the class component 
             //  Note refs cannot be attached to the functional component 
+
+
+            // note :  we can pass a object containing multiple reference to child component in case we have to pass multiple 
+            //         reference

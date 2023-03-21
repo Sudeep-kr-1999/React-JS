@@ -17,10 +17,10 @@ class Counter extends Component {
 
         //     // the console value is 1 less than rendered value because call to this.setState() is asynchronous
         //     // this.setState() takes 2 argument first is the object and then the callback function to be run after the state get change 
-        // this.setState({ count: this.state.count + 1 }, () => (console.log("Callback value", this.state.count)));
-        this.setState({ count: this.state.count + 1 }, () => {return console.log("Callback value", this.state.count)});
+        // this.setState({ count: this.state.count + 1 });
+        // this.setState({ count: this.state.count + 1 }, () => {return console.log("Callback value", this.state.count)});
 
-        //     console.log(this.setState.count); 
+            // console.log(this.state.count); 
 
 
         // if we have to do some operations with or related to previous state we paas previous state as a function argument to arrow function and do whatever we want !
@@ -28,7 +28,7 @@ class Counter extends Component {
 
         // The reason for below, as explained in the MDN Docs is that an arrow function wrapped by() will return the value it wraps, so if I wanted to use curly braces I had 
         // to add the return keyword,
-        this.setState((previousState ) => { return { count: previousState.count + 1 } });
+        // this.setState((previousState ) => { return { count: previousState.count + 1 } });
         // this.setState((previousState)=>({count:previousState.count+1}));
 
 
